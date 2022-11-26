@@ -1,9 +1,6 @@
 /* This example requires Tailwind CSS v3.0+ */
 
-
-
 export default function Hero() {
-
   return (
     <div className="isolate bg-white">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
@@ -12,7 +9,6 @@ export default function Hero() {
           viewBox="0 0 1155 678"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          
         >
           <path
             fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)"
@@ -40,18 +36,22 @@ export default function Hero() {
       <main>
         <div className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
-            <div>              
+            <div>
               <div>
-                <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                <h1 className="text-4xl font-bold tracking-tight sm:text-left sm:text-6xl">
                   Welcome to my Portfolio Website
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                  I believe in building Responsive Web Designs.
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
+                
+                <blockquote class="mt-6 text-2xl font-semibold italic text-center text-slate-900">
+                  I believe in 
+                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2 ">
+                    <span class="relative text-white">building</span>
+                  </span>
+                  responsive web apps.
+                </blockquote>
+                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-end">
                   Scroll to know more...
                 </p>
-               
               </div>
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                 <svg
