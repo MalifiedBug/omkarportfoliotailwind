@@ -41,16 +41,34 @@ export default function Hero() {
                 <h1 className="text-4xl font-bold tracking-tight sm:text-left sm:text-6xl">
                   Welcome to my Portfolio Website
                 </h1>
-                
+
                 <blockquote class="mt-6 text-2xl font-semibold italic text-center text-slate-900">
-                  I believe in 
-                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2 ">
+                  I believe in
+                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-violet-500 relative inline-block mx-2 ">
                     <span class="relative text-white">building</span>
                   </span>
                   responsive web apps.
                 </blockquote>
-                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-end">
+                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-end flex justify-end align-middle">
                   Scroll to know more...
+                  <span>
+                    <svg
+                    className="animate-bounce"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9 12.75L12 15.75M12 15.75L15 12.75M12 15.75L12 8.25M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                        stroke="#0F172A"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
                 </p>
               </div>
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">

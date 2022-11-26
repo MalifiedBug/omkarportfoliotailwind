@@ -66,12 +66,13 @@ export default function Specs2() {
                 key={feature.name}
                 className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row"
               >
-                <div className="flex cursor-pointer items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0">
+                <div className="flex  cursor-pointer items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0">
                   <a
                     href={feature.link}
                     rel="noreferrer noopener"
                     alt="icons"
                     target="_blank"
+                    className="flex animate-pulse relative"
                   >
                     <feature.icon className="h-24 w-24" aria-hidden="true" />
                   </a>
