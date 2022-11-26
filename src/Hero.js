@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <div className="isolate bg-white">
+    <div className="isolate bg-white py-12 my-6">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -39,12 +39,12 @@ export default function Hero() {
             <div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-left sm:text-6xl">
-                  Welcome to my Portfolio Website
+                  Welcome to my Portfolio.
                 </h1>
 
-                <blockquote class="mt-6 text-2xl font-semibold italic text-center text-slate-900">
+                <blockquote class="mt-20 text-2xl font-semibold italic text-center text-slate-900">
                   I believe in
-                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-violet-500 relative inline-block mx-2 ">
+                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2 ">
                     <span class="relative text-white">building</span>
                   </span>
                   responsive web apps.
@@ -53,7 +53,7 @@ export default function Hero() {
                   Scroll to know more...
                   <span>
                     <svg
-                    className="animate-bounce"
+                      className="animate-bounce"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"

@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Edu from "./Edu";
 import Specs2 from "./Specs2";
 import Collaborate from "./Collaborate";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <div>
           <Hero />
           <Edu />
+          <Skills />
           <Specs2 />
           <Collaborate />          
           <Footer />

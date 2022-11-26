@@ -1,41 +1,70 @@
 export default function Footer() {
   return (
-    <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
-      <div class="sm:flex sm:items-center sm:justify-between">
-        <a href="_#" class="flex items-center mb-4 sm:mb-0">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Omkar's Port.
-          </span>
-        </a>
-        <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-          <li>
-            <a rel="noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/omkar-lolge-a34b5024b/" className="mr-4 hover:underline md:mr-6 ">
-              Linked-In
-            </a>
-          </li>
-          <li>
-            <a rel="noopener noreferrer"  target="_blank" href="https://medium.com/@malifiedbug" className="mr-4 hover:underline md:mr-6">
-              Medium
-            </a>
-          </li>
-          <li>
-            <a rel="noopener noreferrer"  target="_blank" href="https://github.com/MalifiedBug" className="mr-4 hover:underline md:mr-6 ">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a rel="noopener noreferrer"  target="_blank" href="tel:+919321089065" className="hover:underline">
-              Contact
-            </a>
-          </li>
-        </ul>
+    <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-gray-900">
+      <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+        <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400">
+          <b>Building businesses together...</b>
+        </p>
+
+        <nav aria-label="Footer Nav" class="mt-12">
+          <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+            <li>
+              <a
+                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                href="https://www.linkedin.com/in/omkar-lolge-a34b5024b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                href="https://medium.com/@malifiedbug"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Medium
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                href="https://github.com/MalifiedBug"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                href="tel:+919321089065"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                href="https://twitter.com/MalifiedB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-               
-         Made with 💓 using React ➕ TailwindCSS.
-         © 2022{" "}
-      </span>
     </footer>
   );
 }
