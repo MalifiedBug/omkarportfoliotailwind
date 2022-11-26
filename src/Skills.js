@@ -14,7 +14,7 @@ export default function Skills() {
             </h2>
             <nav class="flex flex-col sm:items-start text-center items-center -mb-1 space-y-2.5">
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -30,7 +30,7 @@ export default function Skills() {
                 HTML
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -46,7 +46,7 @@ export default function Skills() {
                 CSS
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -62,7 +62,7 @@ export default function Skills() {
                 JavaScript
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -78,7 +78,7 @@ export default function Skills() {
                 Bootstrap
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -101,7 +101,7 @@ export default function Skills() {
             </h2>
             <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -117,7 +117,7 @@ export default function Skills() {
                 Node JS
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -133,7 +133,7 @@ export default function Skills() {
                 Express JS
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -149,7 +149,7 @@ export default function Skills() {
                 MongoDB
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -165,7 +165,7 @@ export default function Skills() {
                 API design and development
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -188,7 +188,7 @@ export default function Skills() {
             </h2>
             <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-blue-100 text-blue-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-blue-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -204,7 +204,7 @@ export default function Skills() {
                 Version Control
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -220,7 +220,7 @@ export default function Skills() {
                 MUI, TailwindCSS
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -236,7 +236,7 @@ export default function Skills() {
                 Postman
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -252,7 +252,7 @@ export default function Skills() {
                 Figma
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -275,7 +275,7 @@ export default function Skills() {
             </h2>
             <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-blue-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -291,7 +291,7 @@ export default function Skills() {
                 Team Player
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -307,7 +307,7 @@ export default function Skills() {
                 Problem Solver
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -323,7 +323,7 @@ export default function Skills() {
                 Creative Thinker
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -339,7 +339,7 @@ export default function Skills() {
                 Effective Communicator
               </a>
               <a href="_#" className="sm:text-3xl text-2xl">
-                <span class="bg-indigo-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
