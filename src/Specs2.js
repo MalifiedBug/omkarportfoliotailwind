@@ -32,7 +32,7 @@ const features = [
     name: "Todo App",
     description: "Implemented basic todo app to add, edit and delete todo.",
     icon: CheckIcon,
-    link: "https://todolistreactapplicationo.netlify.app/",
+    link: "https://tailwindtodo.netlify.app/",
   },
   {
     name: "Abstract.com Landing page.",
