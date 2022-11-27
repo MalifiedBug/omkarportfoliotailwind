@@ -1,7 +1,7 @@
 const features = [
   {
     name: "Senior Secondary",
-    description: "St. Josheph's High School, Solapur.",
+    description: "St. Joseph's High School, Solapur.",
     marks: "89.33%",
     src: "https://media.glassdoor.com/sqll/550824/maharashtra-state-board-of-secondary-and-higher-secondary-education-pune-squarelogo-1645783802794.png",
     passing: "2011",
