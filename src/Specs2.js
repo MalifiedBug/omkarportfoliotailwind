@@ -6,9 +6,17 @@ import {
   PlayIcon,
   TicketIcon,
   ChartPieIcon,
+  ArrowRightOnRectangleIcon,
 } from "@heroicons/react/24/outline";
 
 const features = [
+  {
+    name: "Sign-Up Sign-In with Auth",
+    description:
+      "Implemented basic fullstack signup signin pages with authentication",
+    icon: ArrowRightOnRectangleIcon,
+    link: "https://signinsignupreacttailwind.netlify.app/",
+  },
   {
     name: "Rental E-Commerce mockup",
     description:
