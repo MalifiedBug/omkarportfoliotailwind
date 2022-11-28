@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section class="text-gray-600 body-font bg-gray-50">
+    <section class="text-gray-600 my-8 body-font bg-gray-50">
       <div class="container px-5 py-12 mx-auto">
         <div class="text-center mb-20">
           <h1 class="sm:text-5xl text-4xl mt-12 font-medium text-center title-font text-gray-900 mb-4">
@@ -9,7 +9,7 @@ export default function Skills() {
         </div>
         <div class="flex flex-wrap mx-auto">
           <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 class="font-medium title-font tracking-widest text-indigo-600 mb-4 text-sm text-center sm:text-left">
+            < h2 class="font-medium title-font tracking-widest text-indigo-600 mb-4 text-sm text-center sm:text-left">
               <b className="sm:text-3xl text-2xl">Front End Development</b>
             </h2>
             <nav class="flex flex-col sm:items-start text-center items-center -mb-1 space-y-2.5">

@@ -32,7 +32,7 @@ const features = [
 
 export default function Edu() {
   return (
-    <div className="bg-white lg:mx-16">
+    <div className="bg-white lg:mx-16 my-32">
       <div>
         <h2 className="text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl">
           Technical Education

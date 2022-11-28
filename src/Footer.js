@@ -1,66 +1,43 @@
+
+
 export default function Footer() {
   return (
     <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-gray-900">
       <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400">
-          <b class="text-white">Building businesses together...</b>
+          <b class="text-white text-2xl">Let's build businesses together...</b>
         </p>
 
         <nav aria-label="Footer Nav" class="mt-12">
           <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
             <li>
-              <a
-                class="text-white border-2 p-2 rounded-md text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="https://www.linkedin.com/in/omkar-lolge-a34b5024b/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
+              <button onClick={()=>{window.open("https://www.linkedin.com/in/omkar-lolge-a34b5024b/", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                Linked In
+              </button>
             </li>
 
             <li>
-              <a
-                class="text-white border-2 p-2 rounded-md text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="https://medium.com/@malifiedbug"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <button onClick={()=>{window.open("https://medium.com/@malifiedbug", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                 Medium
-              </a>
+              </button>
             </li>
 
             <li>
-              <a
-                class="text-white border-2 p-2 rounded-md text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="https://github.com/MalifiedBug"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-white border-2 p-2 rounded-md text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="tel:+919321089065"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contact
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-white border-2 p-2 rounded-md transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="https://twitter.com/MalifiedB"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <button onClick={()=>{window.open("https://twitter.com/home", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                 Twitter
-              </a>
+              </button>
+            </li>
+
+            <li>
+              <button onClick={()=>{window.open("https://github.com/MalifiedBug", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                Github
+              </button>
+            </li>
+
+            <li>
+              <button onClick={()=>{window.open("tel:+919321089065", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                Contact
+              </button>
             </li>
           </ul>
         </nav>
