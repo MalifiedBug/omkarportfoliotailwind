@@ -7,6 +7,7 @@ import {
   TicketIcon,
   ChartPieIcon,
   ArrowRightOnRectangleIcon,
+  BanknotesIcon,
 } from "@heroicons/react/24/outline";
 
 const features = [
@@ -16,6 +17,13 @@ const features = [
       "Implemented basic fullstack signup signin pages with authentication",
     icon: ArrowRightOnRectangleIcon,
     link: "https://signinsignupreacttailwind.netlify.app/",
+  },
+  {
+    name: "Petty Cash Manager",
+    description:
+      "Implemented basic fullstack Petty Cash Manager",
+    icon: BanknotesIcon,
+    link: "https://pettycashfrontend.netlify.app/",
   },
   {
     name: "Rental E-Commerce mockup",
