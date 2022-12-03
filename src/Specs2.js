@@ -26,6 +26,13 @@ const features = [
     link: "https://pettycashfrontend.netlify.app/",
   },
   {
+    name: "Url Shortner",
+    description:
+      "Implemented Full Stack Url Shortner",
+    icon: TicketIcon,
+    link: "https://shortyurltailwind.netlify.app/",
+  },
+  {
     name: "Rental E-Commerce mockup",
     description:
       "Implemented basic rental app; where products can be searched according to categories.",
