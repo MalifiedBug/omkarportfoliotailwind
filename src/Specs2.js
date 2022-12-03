@@ -8,6 +8,8 @@ import {
   ChartPieIcon,
   ArrowRightOnRectangleIcon,
   BanknotesIcon,
+  AdjustmentsHorizontalIcon,
+  LinkIcon,
 } from "@heroicons/react/24/outline";
 
 const features = [
@@ -29,7 +31,7 @@ const features = [
     name: "Url Shortner",
     description:
       "Implemented Full Stack Url Shortner",
-    icon: TicketIcon,
+    icon: LinkIcon,
     link: "https://shortyurltailwind.netlify.app/",
   },
   {
@@ -69,6 +71,13 @@ const features = [
       "Implemented a basic Node.js application where files can be created with API call.",
     icon: FolderOpenIcon,
     link: "https://fs-api-guvi.herokuapp.com/",
+  },
+  {
+    name: "Mentor-Student API",
+    description:
+      "Implemented a basic API service to create a student, mentor and assign student to mentor",
+    icon: AdjustmentsHorizontalIcon,
+    link: "https://selfstart.stoplight.io/docs/mentor-student/h8wmjo9no10px-mentor-student",
   },
 ];
 
