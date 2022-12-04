@@ -97,11 +97,8 @@ const features = [
 
 export default function Specs2() {
   const[a,setA]=useState(300)
-  function ReduceA(){
-    if(a>0){
-     setA(a-1)      
-    }
-   }
+
+    
 
   useEffect(()=>{
       features.map((hook)=>(
@@ -109,12 +106,13 @@ export default function Specs2() {
     ))
   },[])  
 
-  useEffect(()=>{
-    setInterval(ReduceA,1000)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[a])
-
-
+  useEffect(() => {
+    if (a > 0) {
+      setTimeout(() => setA(a - 1), 1000);
+    }
+  });
+  
 
   return (
     <div className="bg-white py-24 sm:py-32 lg:py-40">
