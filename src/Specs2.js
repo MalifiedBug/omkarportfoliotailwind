@@ -96,7 +96,7 @@ const features = [
 ];
 
 export default function Specs2() {
-  const[a,setA]=useState(300)
+  const[a,setA]=useState(500)
 
     
 
