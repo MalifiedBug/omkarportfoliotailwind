@@ -121,7 +121,7 @@ export default function Specs2() {
           <p className="mt-2 text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl">
             Mini-Projects 
           </p>
-          {a!==0?<span className="text-red-500">Re-booting Up servers to run projects smoothly. Time: {a}s <span>(<><b>*</b></>do not refresh)</span></span>:<span className="text-xl text-green-600">"🎉servers booted up"<span>(<><b className="text-red-500">*</b></>do not refresh)</span></span>}
+          {a!==0?<span className="text-red-500">Re-booting Up servers to run projects smoothly. Time: {a}s Please Wait !!<span>(<><b>*</b></>do not refresh)</span></span>:<span className="text-xl text-green-600">"🎉servers booted up"<span>(<><b className="text-red-500">*</b></>do not refresh) .. Go ahead </span></span>}
         </div>
 
         <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">
