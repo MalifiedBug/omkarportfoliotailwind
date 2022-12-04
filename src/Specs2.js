@@ -12,6 +12,9 @@ import {
   LinkIcon,
 } from "@heroicons/react/24/outline";
 
+import { useState,useEffect } from "react";
+import axios from "axios";
+
 const features = [
   {
     name: "Sign-Up Sign-In with Auth",
@@ -19,6 +22,8 @@ const features = [
       "Implemented basic fullstack signup signin pages with authentication",
     icon: ArrowRightOnRectangleIcon,
     link: "https://signinsignupreacttailwind.netlify.app/",
+    server:true,
+    serverHook:"https://api.render.com/deploy/srv-ce27mqta4996ndum4b5g?key=MDj7qUXM3O0",
   },
   {
     name: "Petty Cash Manager",
@@ -26,6 +31,8 @@ const features = [
       "Implemented basic fullstack Petty Cash Manager",
     icon: BanknotesIcon,
     link: "https://pettycashfrontend.netlify.app/",
+    server:true,
+    serverHook:"https://api.render.com/deploy/srv-ce27mqta4996ndum4b5g?key=MDj7qUXM3O0",
   },
   {
     name: "Url Shortner",
@@ -33,6 +40,8 @@ const features = [
       "Implemented Full Stack Url Shortner",
     icon: LinkIcon,
     link: "https://shortyurltailwind.netlify.app/",
+    server:true,
+    serverHook:"https://api.render.com/deploy/srv-ce5g1bun6mpk2bjkirtg?key=fy64mCFwn5o",
   },
   {
     name: "Rental E-Commerce mockup",
@@ -71,24 +80,50 @@ const features = [
       "Implemented a basic Node.js application where files can be created with API call.",
     icon: FolderOpenIcon,
     link: "https://fs-api-guvi.herokuapp.com/",
+    server:true,
+    serverHook:"",
   },
+  
   {
     name: "Mentor-Student API",
     description:
       "Implemented a basic API service to create a student, mentor and assign student to mentor",
     icon: AdjustmentsHorizontalIcon,
     link: "https://selfstart.stoplight.io/docs/mentor-student/h8wmjo9no10px-mentor-student",
+    server:true,
+    serverHook:"https://api.render.com/deploy/srv-ce5oisqrrk071o3umt2g?key=0ndkfUN-ibA",
   },
 ];
 
 export default function Specs2() {
+  const[a,setA]=useState(300)
+  function ReduceA(){
+    if(a>0){
+     setA(a-1)      
+    }
+   }
+
+  useEffect(()=>{
+      features.map((hook)=>(
+      axios.post(`${hook.serverHook}`)
+    ))
+  },[])  
+
+  useEffect(()=>{
+    setInterval(ReduceA,1000)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[a])
+
+
+
   return (
     <div className="bg-white py-24 sm:py-32 lg:py-40">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl">
-            Mini-Projects
+            Mini-Projects 
           </p>
+          {a!==0?<span className="text-red-500">Re-booting Up servers to run projects smoothly. Time: {a}s <span>(<><b>*</b></>do not refresh)</span></span>:<span className="text-xl text-green-600">"🎉servers booted up"<span>(<><b className="text-red-500">*</b></>do not refresh)</span></span>}
         </div>
 
         <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">
@@ -116,7 +151,11 @@ export default function Specs2() {
                   <p className="mt-2 text-xl leading-7 text-gray-600">
                     {feature.description}
                   </p>
-                </div>
+                  
+                  {/* server activate button */}
+                  {/* {feature.server?<ServerActivate feature={feature}/>:null}     */}
+                
+                </div>                
               </div>
             ))}
           </div>
@@ -125,3 +164,39 @@ export default function Specs2() {
     </div>
   );
 }
+
+
+// function ServerActivate({feature}){
+//   const[clicked,setClicked]=useState(false)
+//   return (
+//     <div>
+//       <div className="flex ">
+//         <p className={feature.serverHook && clicked ? "text-green-500" : "text-red-500"}>
+//           Make sure to wake up server before clicking the project link 👉{" "}
+//         </p>
+//         <div
+//           className={feature.serverHook && clicked?"button w-20 h-8 bg-green-300 rounded-lg cursor-pointer select-none active:translate-y-2  active:[box-shadow:0_0px_0_0_#45ff5e,0_0px_0_0_#1b70f841] active:border-b-[0px] first-letter:transition-all duration-150 [box-shadow:0_10px_0_0_#45ff5e,0_15px_0_0_#1b70f841] border-b-[1px] border-green-400":"button w-20 h-8 bg-red-400 rounded-lg cursor-pointer select-none active:translate-y-2  active:[box-shadow:0_0px_0_0_#fc4469,0_0px_0_0_#1b70f841] active:border-b-[0px] transition-all duration-150 [box-shadow:0_10px_0_0_#fc4469,0_15px_0_0_#1b70f841] border-b-[1px] border-red-400"}
+//         >
+//           {feature.serverHook && clicked?<button
+            
+            
+           
+//             class="flex flex-col justify-center items-center h-full text-white font-bold text-lg "
+//             disabled={true}
+//           >
+//             Activated
+//           </button>:<button
+//             onClick={() => {axios.get(`${feature.serverHook}`).then(setClicked(true))}}
+            
+            
+            
+//             class="flex flex-col justify-center items-center h-full text-white font-bold text-lg "
+//           >
+//             Activate
+//           </button>}
+          
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
