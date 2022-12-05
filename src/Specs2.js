@@ -95,7 +95,7 @@ const features = [
     serverHook:"https://api.render.com/deploy/srv-ce5oisqrrk071o3umt2g?key=0ndkfUN-ibA",
   },
   {
-    name: "Mentor-Student API",
+    name: "Hall Booking API",
     description:
       "Implemented a basic API service for Hall Renting Application",
     icon: BuildingLibraryIcon,
