@@ -97,7 +97,7 @@ const features = [
   {
     name: "Mentor-Student API",
     description:
-      "Implemented a basic API service to create a student, mentor and assign student to mentor",
+      "Implemented a basic API service for Hall Renting Application",
     icon: BuildingLibraryIcon,
     link: "https://documenter.getpostman.com/view/23548348/2s8YzMZRHS",
   },
