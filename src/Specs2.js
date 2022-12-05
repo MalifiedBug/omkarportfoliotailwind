@@ -10,6 +10,7 @@ import {
   BanknotesIcon,
   AdjustmentsHorizontalIcon,
   LinkIcon,
+  BuildingLibraryIcon
 } from "@heroicons/react/24/outline";
 
 import { useState,useEffect } from "react";
@@ -92,6 +93,13 @@ const features = [
     link: "https://selfstart.stoplight.io/docs/mentor-student/h8wmjo9no10px-mentor-student",
     server:true,
     serverHook:"https://api.render.com/deploy/srv-ce5oisqrrk071o3umt2g?key=0ndkfUN-ibA",
+  },
+  {
+    name: "Mentor-Student API",
+    description:
+      "Implemented a basic API service to create a student, mentor and assign student to mentor",
+    icon: BuildingLibraryIcon,
+    link: "https://documenter.getpostman.com/view/23548348/2s8YzMZRHS",
   },
 ];
 
