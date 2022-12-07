@@ -34,15 +34,7 @@ const features = [
     icon: CalculatorIcon,
     link: "https://bootstrapcalculatorrr.netlify.app/",
   },
-  {
-    name: "Petty Cash Manager",
-    description:
-      "Implemented basic fullstack Petty Cash Manager",
-    icon: BanknotesIcon,
-    link: "https://pettycashfrontend.netlify.app/",
-    server:true,
-    serverHook:"https://api.render.com/deploy/srv-ce27mqta4996ndum4b5g?key=MDj7qUXM3O0",
-  },
+ 
   {
     name: "Url Shortner",
     description:
@@ -52,13 +44,7 @@ const features = [
     server:true,
     serverHook:"https://api.render.com/deploy/srv-ce5g1bun6mpk2bjkirtg?key=fy64mCFwn5o",
   },
-  {
-    name: "Rental E-Commerce mockup",
-    description:
-      "Implemented basic rental app; where products can be searched according to categories.",
-    icon: ChartPieIcon,
-    link: "https://webcodetwo.netlify.app/",
-  },
+  
   {
     name: "Movies frontend app",
     description: "Implemented a CRUD Movies Library app.",
@@ -82,17 +68,7 @@ const features = [
     description: "Implemented Landing page of abstract.com - mockup.",
     icon: BeakerIcon,
     link: "https://profound-lokum-cd1c15.netlify.app/",
-  },
-  {
-    name: "File Creator API",
-    description:
-      "Implemented a basic Node.js application where files can be created with API call.",
-    icon: FolderOpenIcon,
-    link: "https://fs-api-guvi.herokuapp.com/",
-    server:true,
-    serverHook:"",
-  },
-  
+  },  
   {
     name: "Mentor-Student API",
     description:
