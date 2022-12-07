@@ -1,13 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import {
-  FolderOpenIcon,
   BeakerIcon,
   CheckIcon,
   PlayIcon,
   TicketIcon,
-  ChartPieIcon,
   ArrowRightOnRectangleIcon,
-  BanknotesIcon,
   AdjustmentsHorizontalIcon,
   LinkIcon,
   BuildingLibraryIcon,
