@@ -10,7 +10,8 @@ import {
   BanknotesIcon,
   AdjustmentsHorizontalIcon,
   LinkIcon,
-  BuildingLibraryIcon
+  BuildingLibraryIcon,
+  CalculatorIcon
 } from "@heroicons/react/24/outline";
 
 import { useState,useEffect } from "react";
@@ -25,6 +26,13 @@ const features = [
     link: "https://signinsignupreacttailwind.netlify.app/",
     server:true,
     serverHook:"https://api.render.com/deploy/srv-ce27mqta4996ndum4b5g?key=MDj7qUXM3O0",
+  },
+  {
+    name: "Bootstrap Calculator",
+    description:
+      "Implemented Bootstrap Calculator",
+    icon: CalculatorIcon,
+    link: "https://bootstrapcalculatorrr.netlify.app/",
   },
   {
     name: "Petty Cash Manager",
@@ -157,6 +165,7 @@ export default function Specs2() {
                   <p className="mt-2 text-xl leading-7 text-gray-600">
                     {feature.description}
                   </p>
+                  {feature.server?<p>Wait for server</p>:null}
                   
                   {/* server activate button */}
                   {/* {feature.server?<ServerActivate feature={feature}/>:null}     */}
