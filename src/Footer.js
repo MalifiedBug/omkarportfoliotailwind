@@ -5,7 +5,7 @@ export default function Footer() {
     <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-gray-900">
       <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400">
-          <b class="text-white text-2xl">Let's build businesses together...</b>
+          <b class="text-slate-600 text-2xl">Let's build businesses together...</b>
         </p>
 
         <nav aria-label="Footer Nav" class="mt-12">
