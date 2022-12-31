@@ -10,21 +10,9 @@ export default function Footer() {
 
         <nav aria-label="Footer Nav" class="mt-12">
           <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-            <li>
-              <button onClick={()=>{window.open("https://www.linkedin.com/in/omkar-lolge-a34b5024b/", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-                Linked In
-              </button>
-            </li>
-
-            <li>
+                       <li>
               <button onClick={()=>{window.open("https://medium.com/@malifiedbug", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                 Medium
-              </button>
-            </li>
-
-            <li>
-              <button onClick={()=>{window.open("https://twitter.com/home", '_blank')}} class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-                Twitter
               </button>
             </li>
 

@@ -1,7 +1,7 @@
 import "./App.css";
 import Hero from "./Hero";
 import Footer from "./Footer";
-import Edu from "./Edu";
+// import Edu from "./Edu";
 import Specs2 from "./Specs2";
 import Collaborate from "./Collaborate";
 import Skills from "./Skills";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">      
         <div>
           <Hero />
-          <Edu />
+          {/* <Edu /> */}
           <Skills />
           <Specs2 />
           <Collaborate />          

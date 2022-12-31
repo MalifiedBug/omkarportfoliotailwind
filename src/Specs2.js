@@ -1,79 +1,41 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import {
-  BeakerIcon,
   CheckIcon,
-  PlayIcon,
   TicketIcon,
-  ArrowRightOnRectangleIcon,
   AdjustmentsHorizontalIcon,
-  LinkIcon,
+  TagIcon,
   BuildingLibraryIcon,
-  CalculatorIcon
 } from "@heroicons/react/24/outline";
 
-import { useState,useEffect } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 
 const features = [
   {
-    name: "Sign-Up Sign-In with Auth",
+    name: "HelpDesk App",
     description:
-      "Implemented basic fullstack signup signin pages with authentication",
-    icon: ArrowRightOnRectangleIcon,
-    link: "https://signinsignupreacttailwind.netlify.app/",
-    server:true,
-    serverHook:"https://api.render.com/deploy/srv-ce27mqta4996ndum4b5g?key=MDj7qUXM3O0",
-  },
-  {
-    name: "Bootstrap Calculator",
-    description:
-      "Implemented Bootstrap Calculator",
-    icon: CalculatorIcon,
-    link: "https://bootstrapcalculatorrr.netlify.app/",
-  },
- 
-  {
-    name: "Url Shortner",
-    description:
-      "Implemented Full Stack Url Shortner",
-    icon: LinkIcon,
-    link: "https://shortyurltailwind.netlify.app/",
-    server:true,
-    serverHook:"https://api.render.com/deploy/srv-ce5g1bun6mpk2bjkirtg?key=fy64mCFwn5o",
-  },
-  
+      "A Full stack Application for managing Client issues.",
+    icon: TagIcon,
+    link: "https://issuesmanagerfrontend.vercel.app",
+  },  
   {
     name: "Movies frontend app",
     description: "Implemented a CRUD Movies Library app.",
     icon: TicketIcon,
     link: "https://moviesfrontend.netlify.app/",
-  },
-  {
-    name: "YouTube Landing page",
-    description: "Implemented a basic Youtube landing page.",
-    icon: PlayIcon,
-    link: "https://sparkly-sunflower-9bb19b.netlify.app/",
-  },
+  },  
   {
     name: "Todo App",
     description: "Implemented basic todo app to add, edit and delete todo.",
     icon: CheckIcon,
     link: "https://tailwindtodo.netlify.app/",
-  },
-  {
-    name: "Abstract.com Landing page.",
-    description: "Implemented Landing page of abstract.com - mockup.",
-    icon: BeakerIcon,
-    link: "https://profound-lokum-cd1c15.netlify.app/",
-  },  
+  },   
   {
     name: "Mentor-Student API",
     description:
       "Implemented a basic API service to create a student, mentor and assign student to mentor",
     icon: AdjustmentsHorizontalIcon,
     link: "https://selfstart.stoplight.io/docs/mentor-student/h8wmjo9no10px-mentor-student",
-    server:true,
-    serverHook:"https://api.render.com/deploy/srv-ce5oisqrrk071o3umt2g?key=0ndkfUN-ibA",
   },
   {
     name: "Hall Booking API",
@@ -82,10 +44,9 @@ const features = [
     icon: BuildingLibraryIcon,
     link: "https://documenter.getpostman.com/view/23548348/2s8YzMZRHS",
   },
-];
+]; 
 
 export default function Specs2() {
-  const[a,setA]=useState(500)
 
     
 
@@ -96,11 +57,7 @@ export default function Specs2() {
   },[])  
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => {
-    if (a > 0) {
-      setTimeout(() => setA(a - 1), 1000);
-    }
-  });
+ 
   
 
   return (
@@ -110,9 +67,7 @@ export default function Specs2() {
           <p className="mt-2 text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl">
             Mini-Projects 
           </p>
-          {a!==0?<span className="text-red-500">Re-booting Up servers to run projects smoothly. Time: {a}s Please Wait !!<span>(<><b>*</b></>do not refresh)</span></span>:<span className="text-xl text-green-600">"🎉servers booted up"<span>(<><b className="text-red-500">*</b></>do not refresh) .. Go ahead </span></span>}
         </div>
-
         <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
             {features.map((feature) => (
@@ -137,9 +92,7 @@ export default function Specs2() {
                   </p>
                   <p className="mt-2 text-xl leading-7 text-gray-600">
                     {feature.description}
-                  </p>
-                  {feature.server?<p>Wait for server</p>:null}
-                  
+                  </p>                  
                   {/* server activate button */}
                   {/* {feature.server?<ServerActivate feature={feature}/>:null}     */}
                 
