@@ -36,7 +36,7 @@ export default function Hero() {
       <main>
         <div className="relative px-6 lg:px-8">
         <p className="mt-2 text-lg leading-8 text-gray-600 sm:text-end flex justify-end align-middle">
-              <a className="border-2 p-2 text-white hover:bg-red-700 bg-red-500 rounded-lg w-auto h-auto" href="https://docs.google.com/document/d/1KFK0kMtLos2CNyTiBxABkVGwoz6DaP7H5wtAICDXbLA/edit?usp=sharing" rel="noreferrer" target="_blank">View CV</a>
+              <a className="border-2 p-2 text-white hover:bg-red-700 bg-red-500 rounded-lg w-auto h-auto" href="https://drive.google.com/file/d/1JZIVmIgL1voJID8Wb924YDxI6jJoctwq/view?usp=sharing" rel="noreferrer" target="_blank">View CV</a>
               </p>
           <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div>
