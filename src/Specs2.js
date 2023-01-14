@@ -5,6 +5,7 @@ import {
   AdjustmentsHorizontalIcon,
   TagIcon,
   BuildingLibraryIcon,
+  BookOpenIcon,
 } from "@heroicons/react/24/outline";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,6 +25,14 @@ const features = [
     stack: "MERN",
     link: "https://issuesmanagerfrontend.vercel.app",
     githubrepo: "https://github.com/MalifiedBug/issuesmanagerfrontend",
+  },
+  {
+    name: "Books Management App",
+    description: "A Full stack Application for managing Books data.",
+    icon: BookOpenIcon,
+    stack: "MERN",
+    link: "https://booksmanagerfrontend.vercel.app",
+    githubrepo: "https://github.com/MalifiedBug/booksmanagerfrontend",
   },
   {
     name: "Movies frontend app",
