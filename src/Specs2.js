@@ -6,6 +6,7 @@ import {
   TagIcon,
   BuildingLibraryIcon,
   BookOpenIcon,
+  ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,6 +19,14 @@ import { useEffect } from "react";
 import axios from "axios";
 
 const features = [
+  {
+    name: "eCommerce App",
+    description: "A Full stack Application mimicking eCommerce Website.",
+    icon: ShoppingCartIcon,
+    stack: "MERN",
+    link: "https://ecommefrontend.vercel.app",
+    githubrepo: "https://github.com/MalifiedBug/ecommefrontend",
+  },
   {
     name: "HelpDesk App",
     description: "A Full stack Application for managing Client issues.",
@@ -39,7 +48,7 @@ const features = [
     description: "Implemented a CRUD Movies Library app.",
     icon: TicketIcon,
     stack: "MERN",
-    link: "https://moviesfrontend.netlify.app/",
+    link: "https://moviesfrontend.netlify.app",
     githubrepo: "https://github.com/MalifiedBug/moviesfrontend",
   },
   {

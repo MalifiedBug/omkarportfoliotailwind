@@ -93,6 +93,22 @@ export default function Skills() {
                 </span>
                 React JS
               </a>
+              <a href="_#" className="sm:text-3xl text-2xl">
+                <span class="bg-green-100 text-indigo-500 w-6 h-6 mr-2 rounded-full inline-flex items-center justify-center">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Redux
+              </a>
             </nav>
           </div>
           <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
