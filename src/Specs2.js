@@ -44,7 +44,7 @@ const features = [
     githubrepo: "https://github.com/MalifiedBug/booksmanagerfrontend",
   },
   {
-    name: "Movies frontend app",
+    name: "Movies App",
     description: "Implemented a CRUD Movies Library app.",
     icon: TicketIcon,
     stack: "MERN",
